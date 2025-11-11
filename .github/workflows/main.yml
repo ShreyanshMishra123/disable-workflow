@@ -1,0 +1,17 @@
+name: Disable Workflow
+
+on:
+ push:
+   branches: [main]
+
+jobs:
+  disable:
+    runs-on: ubantu-latest
+
+    steps:
+    - name: Shreyansh
+      run: echo "Disable Workflow"
+    
+   
+
+  
